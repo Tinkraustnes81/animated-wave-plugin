@@ -1,0 +1,14 @@
+{
+    "name": "animated-wave",
+    "displayName": "Animated Wave",
+    "version": "1.0.0",
+    "editor": {
+      "properties": [
+        { "label": "Class Name", "type": "string", "name": "className" },
+        { "label": "Speed", "type": "number", "name": "speed", "default": 0.015 },
+        { "label": "Amplitude", "type": "number", "name": "amplitude", "default": 30 },
+        { "label": "Wireframe", "type": "boolean", "name": "wireframe", "default": true },
+        { "label": "Wave Color", "type": "string", "name": "waveColor" }
+      ]
+    }
+  }

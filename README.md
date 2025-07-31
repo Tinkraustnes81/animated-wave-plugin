@@ -1,16 +1,13 @@
-# Animated Wave Plugin for WeWeb
+# WeWeb Test Plugin
 
-This is a **custom WeWeb plugin** that renders an animated 3D wave background using Three.js and React.
+This is a minimal plugin used to verify that the GitHub → WeWeb import pipeline works correctly.
 
 ## Structure
-
-The repository only contains the **built files** required by WeWeb:
-
-- `dist/index.js` → Compiled JavaScript bundle generated from Vite build
-- `ww-config.json` → Plugin configuration file for WeWeb
+- `dist/index.js` → Main JavaScript bundle
+- `ww-config.json` → WeWeb plugin configuration
 
 ## Usage
-
-1. Build the plugin locally:
-   ```bash
-   npm run build
+1. Push this repo to GitHub
+2. In WeWeb, go to **Project Settings → Import from GitHub**
+3. Select this repository and import the plugin
+4. Drag the "Test Plugin" widget into your page and customize its props

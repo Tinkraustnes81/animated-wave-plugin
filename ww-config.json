@@ -1,14 +1,33 @@
 {
-    "name": "animated-wave",
-    "displayName": "Animated Wave",
-    "version": "1.0.0",
-    "editor": {
-      "properties": [
-        { "label": "Class Name", "type": "string", "name": "className" },
-        { "label": "Speed", "type": "number", "name": "speed", "default": 0.015 },
-        { "label": "Amplitude", "type": "number", "name": "amplitude", "default": 30 },
-        { "label": "Wireframe", "type": "boolean", "name": "wireframe", "default": true },
-        { "label": "Wave Color", "type": "string", "name": "waveColor" }
-      ]
+  "name": "AnimatedWave",
+  "displayName": "Animated Wave",
+  "type": "widget",
+  "icon": "waves",
+  "description": "3D animated wave background component",
+  "props": [
+    {
+      "name": "speed",
+      "label": "Animation Speed",
+      "type": "number",
+      "default": 0.015
+    },
+    {
+      "name": "amplitude",
+      "label": "Wave Amplitude",
+      "type": "number",
+      "default": 30
+    },
+    {
+      "name": "wireframe",
+      "label": "Wireframe Mode",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "name": "waveColor",
+      "label": "Wave Color",
+      "type": "text",
+      "default": "#000000"
     }
-  }
+  ]
+}

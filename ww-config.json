@@ -1,33 +1,21 @@
 {
-  "name": "AnimatedWave",
-  "displayName": "Animated Wave",
+  "name": "test-plugin",
+  "displayName": "Test Plugin",
   "type": "widget",
-  "icon": "waves",
-  "description": "3D animated wave background component",
+  "icon": "puzzle",
+  "description": "A minimal test plugin for WeWeb verification",
   "props": [
     {
-      "name": "speed",
-      "label": "Animation Speed",
-      "type": "number",
-      "default": 0.015
-    },
-    {
-      "name": "amplitude",
-      "label": "Wave Amplitude",
-      "type": "number",
-      "default": 30
-    },
-    {
-      "name": "wireframe",
-      "label": "Wireframe Mode",
-      "type": "boolean",
-      "default": true
-    },
-    {
-      "name": "waveColor",
-      "label": "Wave Color",
+      "name": "message",
+      "label": "Message Text",
       "type": "text",
-      "default": "#000000"
+      "default": "Hello from WeWeb plugin!"
+    },
+    {
+      "name": "color",
+      "label": "Background Color",
+      "type": "text",
+      "default": "#4CAF50"
     }
   ]
 }
